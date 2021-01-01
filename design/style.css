@@ -23,6 +23,32 @@ body {
 #menu>nav>div>ul>li>.nav-link {
     color: #000000;
 }
+#presentation {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#presentation>article,
+#presentation>figure>img{
+    padding: 20px;
+}
+#presentation>figure>img{
+
+    width: 100%;
+}
+#presentation>article{
+    border-radius: 15px;
+    text-align: justify;
+    background-image: linear-gradient(to right, #fbdbf0, #ffdde1, #ffe4d3, #ffedce, #edf8d5);
+    box-shadow: 1px 1px 15px 2px black;
+    font-size: 0.9em;
+
+}
+
+#presentation>article>h2{
+    text-align: center;
+    font-size: 1.6em;
+}
 
 
 /*media queries*/
