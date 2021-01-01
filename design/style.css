@@ -16,6 +16,23 @@ body {
 }
 
 #menu>nav>.h1 {
-    color: #000000;
     font-size:1.3em;
 }
+
+#menu>nav>.h1,
+#menu>nav>div>ul>li>.nav-link {
+    color: #000000;
+}
+
+
+/*media queries*/
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    #menu>nav>.h1 {
+        display: none;
+    }
+}
+
