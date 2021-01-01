@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+html,
+body {
+    background-image: linear-gradient(to right top, #f6bbe1, #ffc0c9, #ffcfb1, #ffe3a6, #e4f9b4);
+    color: #000000;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
