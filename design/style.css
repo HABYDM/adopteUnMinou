@@ -9,10 +9,20 @@ body {
 
 #menu {
     padding: 25px;
-    background-image: linear-gradient(to right top, #fbdbf0, #ffdde1, #ffe4d3, #ffedce, #edf8d5);
     text-align: center;
     font-size: 1.2em;
     box-shadow: 1px 1px 10px 2px black;
+}
+
+#menu,
+#presentation>.flex-container>article,
+footer {
+    background-image: linear-gradient(to right top, #fbdbf0, #ffdde1, #ffe4d3, #ffedce, #edf8d5);
+}
+
+#presentation>.flex-container>article,
+footer {
+    box-shadow: 1px 1px 15px 2px black;
 }
 
 #menu>nav>.h1 {
@@ -43,10 +53,7 @@ footer>a>.fa-arrow-up {
 #presentation>.flex-container>article {
     border-radius: 15px;
     text-align: justify;
-    background-image: linear-gradient(to right, #fbdbf0, #ffdde1, #ffe4d3, #ffedce, #edf8d5);
-    box-shadow: 1px 1px 15px 2px black;
     font-size: 0.9em;
-
 }
 
 #presentation>.flex-container>article>h2 {
@@ -68,8 +75,6 @@ footer {
     bottom: 0;
     padding-top: 80px;
     padding-bottom: 80px;
-    background-image: linear-gradient(to right top, #fbdbf0, #ffdde1, #ffe4d3, #ffedce, #edf8d5);
-    box-shadow: 1px 1px 15px 2px black;
     text-align: center;
 }
 footer>h2 {
@@ -91,7 +96,7 @@ footer>section>#social>ul>li {
 }
 
 footer>section>#social>ul {
-    padding-inline-start: 0;
+    padding-left: 0;
 }
 
 footer>section>#contact>address>a {
