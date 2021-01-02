@@ -20,7 +20,8 @@ body {
 }
 
 #menu>nav>.h1,
-#menu>nav>div>ul>li>.nav-link {
+#menu>nav>div>ul>li>.nav-link,
+footer>section>#social>ul>li>a{
     color: #000000;
 }
 
@@ -60,6 +61,54 @@ body {
 #presentation>.flex-container>article>.marge {
     text-indent: 40px;
 }
+
+footer {
+    bottom: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(to right top, #fbdbf0, #ffdde1, #ffe4d3, #ffedce, #edf8d5);
+    box-shadow: 1px 1px 15px 2px black;
+    text-align: center;
+}
+footer>h2 {
+     font-size: 1.4em;
+}
+
+hr {
+    width: 340px;
+    box-shadow: 0 1px 5px rgb(223, 18, 103);
+    border: 1px solid #ffffff;
+    margin-bottom: 30px;
+}
+
+footer>section>#social>ul>li {
+    list-style: none;
+    margin: 15px;
+    display: inline;
+    font-size: 1.5em;
+}
+
+footer>section>#social>ul {
+    padding-inline-start: 0;
+}
+
+footer>section>#contact>address>a {
+    margin: 20px;
+    color: #000000;
+}
+
+
+footer>section>#contact>address>a:hover,
+footer>section>#social>ul>li>a:hover {
+    color: rgb(223, 18, 103);
+}
+
+footer>section>#contact>h3,
+footer>section>#social>h3 {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
 
 /*media queries*/
 [class*="col-"] {
