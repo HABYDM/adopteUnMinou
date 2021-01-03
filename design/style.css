@@ -16,13 +16,13 @@ body {
 
 #menu,
 #presentation>.flex-container>article,
-#event>article,
+#event>.flex-container>article,
 footer {
     background-image: linear-gradient(to right top, #fbdbf0, #ffdde1, #ffe4d3, #ffedce, #edf8d5);
 }
 
 #presentation>.flex-container>article,
-#event>article,
+#event>.flex-container>article,
 footer {
     box-shadow: 1px 1px 15px 2px black;
 }
@@ -46,49 +46,50 @@ footer>a>.fa-arrow-up {
 
 #presentation>.flex-container>article,
 #presentation>.flex-container>figure>img,
-#event>article{
+#event>.flex-container>article{
     padding: 20px;
 }
 
 #presentation>.flex-container>figure>img,
-#event>#accordion>.card>#collapse>.card-body>iframe {
+#event>.flex-container>#accordion>.card>#collapse>.card-body>iframe {
     width: 100%;
 }
 
 #presentation>.flex-container>article,
-#event>article {
+#event>.flex-container>article {
     border-radius: 15px;
     text-align: justify;
     font-size: 0.9em;
 }
 
 #presentation>.flex-container>article>h2,
-#event>article>h2 {
+#event>.flex-container>article>h2 {
     text-align: center;
     font-size: 1.6em;
 }
 
 #presentation>.flex-container,
-footer>.flex-container{
+#event>.flex-container,
+footer>.flex-container {
     display: flex;
     flex-direction: row;
 }
 
 #presentation>.flex-container>article>.marge,
-#event>article>.marge {
+#event>.flex-container>article>.marge {
     text-indent: 40px;
 }
 
-#event>#accordion>.card>#collapse>.card-body>iframe {
+#event>.flex-container>#accordion>.card>#collapse>.card-body>iframe {
     height: 400px;
     border: none;
 }
 
-#event>#accordion>.card {
+#event>.flex-container>#accordion>.card {
     text-align: center;
 }
 
-#event>#accordion>.card>#collapse>.card-body>address>strong {
+#event>.flex-container>#accordion>.card>#collapse>.card-body>address>strong {
     font-size: 1.1em;
 }
 
@@ -125,7 +126,7 @@ footer>section>#contact>address>a {
     color: #000000;
 }
 
-#event>#accordion>.card>.card-header>button:hover,
+#event>.flex-container>#accordion>.card>.card-header>button:hover,
 footer>section>#contact>address>a:hover,
 footer>section>#social>ul>li>a:hover {
     color: rgb(223, 18, 103);
@@ -167,6 +168,21 @@ footer>a>.fa-arrow-up {
 
     #presentation>.row>figure>img {
         margin-top: 80px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    #event>.flex-container>.flex-item {
+        flex: 50%;
+    }
+    #event>.flex-container>#accordion>.card>#collapse {
+        display: block;
+    }
+    #event>.flex-container>#accordion>.card>.card-header>button {
+        cursor: default;
+        pointer-events: none;
+        text-decoration: none;
     }
 }
 
