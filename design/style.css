@@ -16,11 +16,13 @@ body {
 
 #menu,
 #presentation>.flex-container>article,
+#event>article,
 footer {
     background-image: linear-gradient(to right top, #fbdbf0, #ffdde1, #ffe4d3, #ffedce, #edf8d5);
 }
 
 #presentation>.flex-container>article,
+#event>article,
 footer {
     box-shadow: 1px 1px 15px 2px black;
 }
@@ -36,13 +38,15 @@ footer>a>.fa-arrow-up {
     color: #000000;
 }
 
-#presentation {
+#presentation,
+#event {
     margin-top: 90px;
     margin-bottom: 90px;
 }
 
 #presentation>.flex-container>article,
-#presentation>.flex-container>figure>img {
+#presentation>.flex-container>figure>img,
+#event>article{
     padding: 20px;
 }
 
@@ -50,13 +54,15 @@ footer>a>.fa-arrow-up {
     width: 100%;
 }
 
-#presentation>.flex-container>article {
+#presentation>.flex-container>article,
+#event>article {
     border-radius: 15px;
     text-align: justify;
     font-size: 0.9em;
 }
 
-#presentation>.flex-container>article>h2 {
+#presentation>.flex-container>article>h2,
+#event>article>h2 {
     text-align: center;
     font-size: 1.6em;
 }
@@ -67,7 +73,8 @@ footer>.flex-container{
     flex-direction: row;
 }
 
-#presentation>.flex-container>article>.marge {
+#presentation>.flex-container>article>.marge,
+#event>article>.marge {
     text-indent: 40px;
 }
 
