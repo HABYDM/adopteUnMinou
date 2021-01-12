@@ -104,7 +104,7 @@ footer>h2 {
 }
 
 hr {
-    width: 340px;
+    width: 60%;
     box-shadow: 0 1px 5px rgb(223, 18, 103);
     border: 1px solid #ffffff;
     margin-bottom: 30px;
@@ -168,6 +168,9 @@ footer>a>.fa-arrow-up {
 
     #presentation>.row>figure>img {
         margin-top: 80px;
+    }
+    hr {
+        width:340px;
     }
 }
 
